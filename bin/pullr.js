@@ -155,7 +155,7 @@ function openPullRequest(options) {
       },
       auth : {
         'username' : options.credentials.email,
-        'password' : options.credentials.password
+        'password' : options.credentials.token
       },
       body : JSON.stringify({
         head  : head,
